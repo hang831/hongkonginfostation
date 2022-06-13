@@ -49,17 +49,17 @@
                   <a href="index.php"><i class="fa-solid fa-house"></i> 主頁</a>
               </li>
                 <li >
-                    <a href="traffic.html"><i class="fa-solid fa-car-side"></i> 交通狀況</a>
+                    <a href="traffic.php"><i class="fa-solid fa-car-side"></i> 交通狀況</a>
                 </li>
                 
                 <li>
-                    <a href="train.html"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
+                    <a href="train.php"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
                 </li>
                 <li>
                     <a href="feedback.php"><i class="fa-solid fa-comment"></i> 意見反饋</a>
                 </li>
                 <li>
-                    <a href="disclaimers.html"><i class="fa-solid fa-info"></i> 免責聲明</a>
+                    <a href="disclaimers.php"><i class="fa-solid fa-info"></i> 免責聲明</a>
                 </li>
             </ul>
     
@@ -78,7 +78,7 @@
         <div class="container mobile_show" >
             <nav aria-label="breadcrumb"  style="background: whitesmoke; padding:10px; font-size: 25px; ">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">主頁</a></li>
+                  <li class="breadcrumb-item"><a href="index.php">主頁</a></li>
                   <li class="breadcrumb-item active" aria-current="page"><a href="#"><u>交通狀況</u></a></li>
                 </ol>
               </nav>
@@ -88,19 +88,19 @@
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
             <strong>特別交通消息</strong>
             <span class="badge bg-secondary time0">Time</span>
-            <p class="urgent0 p-3 mb-2 text-dark font-weight-bold">Message</p> 
+            <p class="urgent0 p-3 mb-2 text-dark fw-bold fw-bolder">Message</p> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
             <strong>特別交通消息</strong>
             <span class="badge bg-secondary time1">Time</span>
-            <p class="urgent1 p-3 mb-2 text-dark font-weight-bold">Message</p> 
+            <p class="urgent1 p-3 mb-2 text-dark fw-bold fw-bolder">Message</p> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
             <strong>特別交通消息</strong>
             <span class="badge bg-secondary time2">Time</span>
-            <p class="urgent2 p-3 mb-2 text-dark font-weight-bold">Message</p> 
+            <p class="urgent2 p-3 mb-2 text-dark fw-bold fw-bolder">Message</p> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
             <!--<button type="button" id="sidebarCollapse" class="btn btn-lg btn-info">
@@ -117,7 +117,7 @@
                   </svg>
                   <div class="alert alert-primary d-flex align-items-center" role="alert">
                     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
-                    <div>
+                    <div class="fw-bolder">
                         交通情況快拍圖像:(每2分鐘自動更新)
                     </div>
                     <div id="carouselButtons">
@@ -324,7 +324,7 @@
                   </svg>
                   <div class="alert alert-primary d-flex align-items-center" role="alert">
                     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
-                    <div>
+                    <div class="fw-bolder">
                         行車速度屏圖像(每5分鐘自動更新): <span style="color:red">紅色</span>代表交通擠塞，行車十分緩慢，<span style="color:yellow">黃色</span>代表行車較緩慢，而<span style="color:green">綠色</span>代表交通暢順，行車速度正常。
                     </div>
                     <div id="carouselButtons">

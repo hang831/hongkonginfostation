@@ -162,17 +162,36 @@
             myrequest.send();
          }
          getData();
-        
-        $('#playButton1').click(function () {
-            $('#homeCarousel').carousel('cycle');
-        });
-        $('#pauseButton1').click(function () {
-            $('#homeCarousel').carousel('pause');
-        });
+         $(document).ready(function() {
+         const play1 = document.getElementById("playButton1");
+         const pause1 = document.getElementById("pauseButton1");
+         const play2 = document.getElementById("playButton2");
+         const pause2 = document.getElementById("pauseButton2");
 
-        $('#playButton2').click(function () {
-         $('#homeCarousel').carousel('cycle');
-        });
-         $('#pauseButton2').click(function () {
-               $('#homeCarousel').carousel('pause');
-        });
+
+        play1.addEventListener('click', () => { 
+       // $('#playButton1').click(function () {
+            //$('#homeCarousel').carousel('cycle');
+            $('#carouselMultiItemExample').carousel('cycle');
+       // });
+    })
+
+        pause1.addEventListener('click', () => { 
+       // $('#pauseButton1').click(function () {
+            $('#carouselMultiItemExample').carousel('pause');
+       // });
+    })
+
+        play2.addEventListener('click', () => { 
+       // $('#playButton2').click(function () {
+         $('#carouselMultiItemExample2').carousel('cycle');
+       // });
+        })
+
+        pause2.addEventListener('click', () => { 
+         //$('#pauseButton2').click(function () {
+               $('#carouselMultiItemExample2').carousel('pause');
+       // });
+        })
+
+    })

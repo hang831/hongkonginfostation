@@ -42,17 +42,17 @@
               <a href="index.php"><i class="fa-solid fa-house"></i> 主頁</a>
           </li>
             <li>
-                <a href="traffic.html"><i class="fa-solid fa-car-side"></i> 交通狀況</a>
+                <a href="traffic.php"><i class="fa-solid fa-car-side"></i> 交通狀況</a>
             </li>
             
             <li>
-              <a href="train.html"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
+              <a href="train.php"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
             </li>
             <li>
                 <a href="feedback.php"><i class="fa-solid fa-comment"></i> 意見反饋</a>
             </li>
             <li>
-                <a href="disclaimers.html"><i class="fa-solid fa-info"></i> 免責聲明</a>
+                <a href="disclaimers.php"><i class="fa-solid fa-info"></i> 免責聲明</a>
             </li>
         </ul>
 

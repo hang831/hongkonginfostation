@@ -95,6 +95,7 @@ body{
 {
     width: fit-content;
 }
+
 .card{
     padding: 1.2rem 3rem 1rem 3rem; 
     margin: 1rem;
@@ -206,12 +207,11 @@ body{
 
 @media  screen and (max-width: 409px)
 {
-.row4{
-    display: none;
+    .row4{
+        display: none;
+    }
+
 }
-.row1{
-    font-size: 1000px;
-}}
  @media(min-width:410px)
 {
 .row4{
@@ -227,23 +227,19 @@ body{
     overflow: visible;
 }
 
-@media (max-width:395px) and (min-width:390px)
-{
-.row1{
-    
-    
-    font-size: 1.5rem;
-}
-.overtemp0{
-    padding:0;
-}
-.row3{
-    font-size: 0.5rem;   
-}
-}
 
-@media (max-width:9000px) and (min-width:450px)
+@media screen and (max-width:9000px) and (min-width:450px)
 {
 .row4{
     font-size: 1rem;
 }}
+
+/* @media only screen and  (min-width:389px)  and (max-width:395px)   and (orientation: landscape)
+{
+.row1{
+    font-size:10px;
+}
+} */
+
+
+

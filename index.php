@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="香港資訊站Hong Kong Info Station 天氣,交通狀況,實時港鐵列車信息">
     <title>HKIS|主頁</title>
       <!-- front awesome icon-->
       <script src="https://kit.fontawesome.com/a22de04b14.js" crossorigin="anonymous"></script>
@@ -41,17 +42,17 @@
               <a href="index.php"><i class="fa-solid fa-house"></i> 主頁</a>
           </li>
             <li>
-                <a href="traffic.html"><i class="fa-solid fa-car-side"></i> 交通狀況</a>
+                <a href="traffic.php"><i class="fa-solid fa-car-side"></i> 交通狀況</a>
             </li>
             
             <li>
-              <a href="train.html"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
+              <a href="train.php"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
             </li>
             <li>
                 <a href="feedback.php"><i class="fa-solid fa-comment"></i> 意見反饋</a>
             </li>
             <li>
-              <a href="disclaimers.html"><i class="fa-solid fa-info"></i> 免責聲明</a>
+              <a href="disclaimers.php"><i class="fa-solid fa-info"></i> 免責聲明</a>
           </li>
         </ul>
 
@@ -95,11 +96,11 @@
             <div id="demo" class="carousel slide" data-ride="carousel">
 
                 <!-- Indicators -->
-                <ul class="carousel-indicators">
+                <!-- <ul class="carousel-indicators">
                   <li data-target="#demo" data-slide-to="0" class="active"></li>
                   <li data-target="#demo" data-slide-to="1"></li>
                   <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
+                </ul> -->
               
                 <!-- The slideshow -->
                 <div class="carousel-inner">
@@ -120,7 +121,7 @@
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                               天氣展望
                             </button>
-                            <button type="button" class="btn btn-success"><a href="index/weather.html">香港天氣觀測</a></button>
+                            <button type="button" class="btn btn-success"><a href="index/weather.php">香港天氣觀測</a></button>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog">
@@ -157,11 +158,11 @@
           <div id="demo" class="carousel slide" data-ride="carousel">
             
             <!-- Indicators -->
-            <ul class="carousel-indicators">
+            <!-- <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0"></li>
               <li data-target="#demo" data-slide-to="1" class="active"></li>
               <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
+            </ul> -->
           
             <!-- The slideshow -->
             <div class="carousel-inner">
@@ -169,26 +170,26 @@
                 <div class="row">
                   <div class="col">
                     <div class="row row1 "> <h6 class="overtemp0"> </h6> </div>                   
-                    <div class="row row2" id="description0" title="description"><img class="ForecastIcon0" src="https://img.icons8.com/ios/100/000000/sun.png" /></div>               
+                    <div class="row row2" id="description0" title="description"><img class="ForecastIcon0" src="https://img.icons8.com/ios/100/000000/sun.png"/></div>               
                     <div class="row row3 week0">weekData</div>
                     <div class="row row4 day0 fw-bold">dayData</div>
                    
                     <!--<div class="overdescription" style="color:red;">description</div> -->
                   </div>
                   <div class="col">
-                    <div class="row row1 "> <h6 class="overtemp1"> </h6> </div>                   
+                    <div class="row row1"> <h6 class="overtemp1"> </h6> </div>                   
                     <div class="row row2" id="description1" title="description"><img class="ForecastIcon1" src="https://img.icons8.com/ios/100/000000/sun.png"/></div>               
                     <div class="row row3 week1">weekData</div>
                     <div class="row row4 day1 fw-bold">dayData</div>
                   </div>
                   <div class="col">
-                    <div class="row row1 "> <h6 class="overtemp2"> </h6> </div>                   
+                    <div class="row row1"> <h6 class="overtemp2"> </h6> </div>                   
                     <div class="row row2" id="description2" title="description"><img class="ForecastIcon2" src="https://img.icons8.com/ios/100/000000/sun.png"/></div>               
                     <div class="row row3 week2">weekData</div>
                     <div class="row row4 day2 fw-bold">dayData</div>
                   </div>
                   <div class="col">
-                    <div class="row row1 "> <h6 class="overtemp3"> </h6> </div>                   
+                    <div class="row row1"> <h6 class="overtemp3"> </h6> </div>                   
                     <div class="row row2" id="description3" title="description"><img class="ForecastIcon3" src="https://img.icons8.com/ios/100/000000/sun.png"/></div>               
                     <div class="row row3 week3">weekData</div>
                     <div class="row row4 day3 fw-bold">dayData</div>
@@ -204,11 +205,11 @@
           <div id="demo" class="carousel slide" data-ride="carousel">
             
             <!-- Indicators -->
-            <ul class="carousel-indicators">
+            <!-- <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0"></li>
               <li data-target="#demo" data-slide-to="1" ></li>
               <li data-target="#demo" data-slide-to="2" class="active"></li>
-            </ul>
+            </ul> -->
           
             <!-- The slideshow -->
             <div class="carousel-inner">
