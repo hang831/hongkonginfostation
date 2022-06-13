@@ -6,11 +6,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d testing"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage":"https://hang831.github.io/hongkonginfostation",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "web-push": "^3.5.0"
