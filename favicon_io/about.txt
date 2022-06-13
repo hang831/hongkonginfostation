@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Vampiro One
+- Font Author: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Vampiro'.
+- Font Source: http://fonts.gstatic.com/s/vampiroone/v18/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

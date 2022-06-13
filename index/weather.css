@@ -1,0 +1,80 @@
+.flex {
+    display:flex;
+    }
+  .flex div {
+    flex:1;
+    margin:5px; /* need some space ?*/
+    }
+  img {
+    max-width: 100%
+    }
+
+    @media (max-width:768px)  and (min-width:280px)
+    {
+        .flex {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+          
+          .flex>div {
+            flex: 1 0 50%;
+          }
+          
+          .flex>div:first-child {
+            flex: 0 1 100%;
+          }
+    }
+
+
+    .plotly-charts {
+        display: grid;    
+        /* add grid gaps (gaps between rows and columns) */
+        column-gap: 1rem;
+        row-gap: 1rem;
+        
+      }
+      
+      /* make cell flex */
+      .charts iframe {
+        width: 100%;
+        /* you can add ratios to your iframe in other way */
+        aspect-ratio: 6/5;
+      }
+      
+      /* add styles to you images, make it responsive */
+      .charts img {
+        height: auto;
+        width: 80%;
+      }
+
+      .box1{
+          grid-column:1/3;
+          grid-row:1/2;
+      }
+
+      .box2{
+        grid-column:1/2;
+        grid-row:2/3;
+    }
+
+    .box3{
+        grid-column:3/4;
+        grid-row:1/3;
+    }
+
+    @media (max-width:768px)  and (min-width:280px)
+    {
+        .plotly-charts{
+            display:block;
+        }
+        .charts iframe {
+            width: 100%;           
+            /* you can add ratios to your iframe in other way */
+            aspect-ratio: 16/9;
+          }
+    }
+      
+ 
+
+      

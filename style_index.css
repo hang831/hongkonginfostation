@@ -1,0 +1,249 @@
+/* http://jsfiddle.net/harshdand/593Lqqnm/2/ */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    
+    background-image:   url('//cdnjs.cloudflare.com/ajax/libs/file-uploader/3.7.0/processing.gif'), url('https://images.unsplash.com/photo-1633949859547-0953be3de105?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1200&ixid=MnwxfDB8MXxyYW5kb218MHx8aG9uZ2tvbmcgc2VhfHx8fHx8MTY1MzQ2ODE2NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=2000');
+    background-position: center 40%;
+    background-repeat: no-repeat, repeat;  
+}
+/* 
+https://codepen.io/prathkum/pen/dyMPErw 
+https://freefrontend.com/css-text-effects/
+*/
+.bg span:first-child {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #cf1b1b;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+  }
+  @media(max-width:500px)
+  {
+    .bg span:first-child{
+          font-size: 1rem;
+          
+      }
+  }
+  .bg span:first-child::before {
+    content: "HONGKONG";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+  }
+  
+  .bg span:first-child::after {
+    content: "HONGKONG";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+  }
+  
+  .bg span:first-child:hover:before {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .bg span:first-child:hover:after {
+    top: -10px;
+    left: -10px;
+  } 
+
+/* https://bbbootstrap.com/snippets/bootstrap-weather-card-day-and-time-wise-temprature-83707158 */
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 237, 237, 0.438);
+    color: rgb(105, 104, 104);
+    font-family: sans-serif;
+}
+.container
+{
+    width: fit-content;
+}
+.card{
+    padding: 1.2rem 3rem 1rem 3rem; 
+    margin: 1rem;
+    border-radius: 1.5rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033;
+    width:100%;
+    height:100%;
+}
+@media(max-width:767px){
+    .card{
+        height: 10rem;
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+    }
+}
+.carousel-indicators li {
+    width: 5px;
+    height: 6px;
+    border-radius: 100%;
+    opacity: 0.2;
+    background-color: #000000;
+}
+.carousel-indicators{
+    margin-bottom: 0;
+}
+.temp{
+    font-size: 4rem;
+    color: rgb(57, 57, 58);
+}
+.card-1{
+    background: linear-gradient(to right, #ffffff 50%, rgba(241, 224, 190, 0.507));
+    width:100%;
+    height:100%;
+}
+@media(max-width:767px)
+{
+    .city{
+        font-size: 100%;
+    }
+    .temp{
+        font-size: 2.5rem;
+    }
+}
+
+.img-fluid{
+    float: right;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+.row2 .img-fluid{
+    margin: 10% 0;
+    opacity: 0.5;
+    width: 40%;
+}
+.card-2, .card-3{
+    background: #7FCDCD;
+    width:100%;
+    height:100%;
+}
+.card-2 .row{
+    justify-content: center;
+}
+.card-3 .row{
+    justify-content: center;
+}
+.row1{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+.row3{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+/* @media(max-width:400px)
+{
+    .row3{
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: black;
+    }
+} */
+/* @media(max-width:320px)
+{
+    .row3{
+        font-size: 0.6rem;
+        font-weight: bold;
+        color: black;
+    }
+} */
+
+@media  screen and (max-width: 409px)
+{
+.row4{
+    display: none;
+}
+.row1{
+    font-size: 1000px;
+}}
+ @media(min-width:410px)
+{
+.row4{
+    font-size: 0.7rem;
+    color: #000000;
+    padding: 5% ;
+}} 
+
+.col{
+    overflow: visible;
+}
+.row{
+    overflow: visible;
+}
+
+@media (max-width:395px) and (min-width:390px)
+{
+.row1{
+    
+    
+    font-size: 1.5rem;
+}
+.overtemp0{
+    padding:0;
+}
+.row3{
+    font-size: 0.5rem;   
+}
+}
+
+@media (max-width:9000px) and (min-width:450px)
+{
+.row4{
+    font-size: 1rem;
+}}
