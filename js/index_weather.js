@@ -39,9 +39,7 @@ let afterweather = {
       // ForecastIcontemp= ".ForecastIcon"+[i];
       // var elements = document.querySelectorAll(".week0");
 
-      console.log(weektemp);
-      console.log(document.querySelector(weektemp));
-      console.log(document.querySelector(".week0"));
+      //console.log(weektemp);
       //console.log(overtemptemp);
       //console.log(icontemp);
           document.querySelector(weektemp).innerText =week;
