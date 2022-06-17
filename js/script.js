@@ -99,7 +99,7 @@ let afterweather = {
 
       console.log(weektemp);
       console.log(document.querySelector(weektemp));
-      console.log(document.querySelector('week0'));
+      console.log(document.querySelector(".week0"));
       //console.log(overtemptemp);
       //console.log(icontemp);
           document.querySelector(weektemp).innerText =week;
