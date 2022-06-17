@@ -2,6 +2,7 @@
   
 
 $(document).ready(function ($) {
+
 let weather = {
     apiKey: "114a2c3dbe48590b170eb28ac95dbc3c",
     fetchWeather: function (city) {
@@ -79,6 +80,7 @@ let afterweather = {
       //data2.weatherForecast.forEach(element => console.log(element));
       //console.log(data2);
       const {generalSituation}  =data2;
+     
       document.querySelector(".modal-body").innerText =  generalSituation;  
         for ( i = 0; i <=7; i++ ) {       
           weektemp= ".week"+[i];
@@ -95,12 +97,14 @@ let afterweather = {
       // ForecastIcontemp= ".ForecastIcon"+[i];
       // var elements = document.querySelectorAll(".week0");
 
-      //console.log(weektemp);
+      console.log(weektemp);
+      console.log(document.querySelector(weektemp));
+      console.log(document.querySelector('week0'));
       //console.log(overtemptemp);
       //console.log(icontemp);
-          document.querySelector(weektemp).innerText =  week;
+          document.querySelector(weektemp).innerText =week;
           document.querySelector(forecastDatetemp).innerText =  forecastDate;
-          document.querySelector(overtemptemp).innerText =  forecastMintemp.value+ "°C - "+forecastMaxtemp.value+ "°C";         
+          document.querySelector(overtemptemp).innerText =  forecastMintemp.value+"°C - "+forecastMaxtemp.value+"°C";         
           document.querySelector(icontemp).src = "https://www.hko.gov.hk/images/HKOWxIconOutline/pic" + ForecastIcon + ".png";
           document.getElementById(forecastWeathertemp).title=forecastWeather;            
         }
@@ -139,4 +143,4 @@ document.getElementById('time').innerText =  sDay;
 })
 
 
-$("#myModal").modal();
+//$("#myModal").modal();
