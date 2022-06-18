@@ -46,7 +46,7 @@
               <a href="../train.php"><i class="fa-solid fa-train"></i> 實時港鐵列車信息</a>
             </li>
             <li>
-                <a href="feedback.php"><i class="fa-solid fa-comment"></i> 意見反饋</a>
+                <a href="../feedback.php"><i class="fa-solid fa-comment"></i> 意見反饋</a>
             </li>
             <li>
               <a href="../disclaimers.php"><i class="fa-solid fa-info"></i> 免責聲明</a>
