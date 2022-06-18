@@ -1,7 +1,7 @@
+
 <?php
 //https://www.webslesson.info/2017/12/comments-system-using-php-and-ajax.html
 //add_comment.php
-
 $connect = new PDO('mysql:host=remotemysql.com;dbname=XqIN44Xy8T', 'XqIN44Xy8T', 'ywaLsBOQhd');
 //$connect = new mysqli("remotemysql.com", "XqIN44Xy8T", "ywaLsBOQhd", "XqIN44Xy8T");
 $error = '';

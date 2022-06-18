@@ -1,5 +1,6 @@
 <!-- https://mdbootstrap.com/docs/standard/extended/gallery/-->
-
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
