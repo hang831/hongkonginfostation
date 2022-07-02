@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../sidebar.css">
     <link rel="stylesheet" href="weather.css">
     <script src="../js/sidebar.js"></script>
+   <!-- <script src="http://code.jquery.com/jquery-1.11.0.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
     <script src="../js/weather.js"></script>
     
