@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="../sidebar.css">
     <link rel="stylesheet" href="weather.css">
     <script src="../js/sidebar.js"></script>
-
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+    <script src="../js/weather.js"></script>
     
 </head>
 <body>
@@ -78,8 +80,8 @@
       <img  class="img-fluid  rounded mx-auto d-block" src="https://www.hko.gov.hk/wxinfo/ts/windchk.png" BORDER="0" >
     </div>
       <br><br>
-      <h1><span class="badge bg-secondary">現時生效警告</span></h1>
-      沒有資料
+      <h1><span class="badge bg-secondary nowalert">現時生效警告</span></h1>
+      <div id="rss-feeds"></div>
       <br><br>
       
       <h1><span class="badge bg-secondary">香港分區實時天氣照片</span></h1>
@@ -127,9 +129,12 @@
             <div class="charts box3">
               <h3>衛星雲圖</h3>
               <a href="https://www.cwb.gov.tw/V8/C/W/OBS_Sat.html?Area=1"><img src="https://www.cwb.gov.tw/Data/satellite/LCC_IR1_CR_1000/LCC_IR1_CR_1000.jpg" BORDER="0" width="100%"></a>
-            </div>
-      </div>
-
+            </div>     
+        </div>
+        <h3>熱帶氣旋路徑圖</h3>
+            <a href="https://www.hko.gov.hk/tc/wxinfo/currwx/tc_fixarea.htm?tcid=2206"><img class="img-fluid" src="https://www.hko.gov.hk/wxinfo/currwx/nwp_2206.png" BORDER="0" width=auto></a>
+            <a href="https://www.hko.gov.hk/tc/wxinfo/currwx/tc_fixarea.htm?tcid=2206"><img class="img-fluid" src="https://www.hko.gov.hk/wxinfo/currwx/zoom_2206.png" BORDER="0" width=auto></a>
+                
   </div>
 </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
