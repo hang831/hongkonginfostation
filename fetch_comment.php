@@ -3,7 +3,7 @@
 //https://www.webslesson.info/2017/12/comments-system-using-php-and-ajax.html
 //fetch_comment.php
 
-$connect = new PDO('mysql:host=sql112.infinityfree.com;dbname=if0_36245822_comment', 'if0_36245822', 'GC3ZMs9Wfxh');
+
 //$connect = new mysqli("remotemysql.com", "XqIN44Xy8T", "ywaLsBOQhd", "XqIN44Xy8T");
 $query = "
 SELECT * FROM tbl_comment 
